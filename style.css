@@ -15,7 +15,7 @@
   text-align: center;
 }
 
-.pokeAvatar {
+#pokeAvatar {
   margin: auto;
   width: 60%;
   height: 60%;

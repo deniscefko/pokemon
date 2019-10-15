@@ -13,12 +13,10 @@
   <div id="root">
     <div class="container">
       <h2 class="title">GUESS THAT POKEMON!</h2>
-      <img alt="Pokemon image" class="pokeAvatar">
+      <img alt="Pokemon image" id="pokeAvatar">
       <div class="input">
-        <form>
-          <input type="text" name="pokemon">
-          <input type="button" value="GUESS" onclick="guessPokemon(event)">
-        </form>
+        <input id="input" type="text" name="pokemon">
+        <input id="guessBtn" type="button" value="GUESS">
       </div>
       <button class="pokedex" onclick="openPokedex">MY POKEDEX</button>
     </div>
