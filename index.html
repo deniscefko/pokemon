@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pokemon</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Arimo|Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body onload="getPokemon()">
+  <div id="root">
+    <div class="container">
+      <h2 class="title">GUESS THAT POKEMON!</h2>
+      <img alt="Pokemon image" class="pokeAvatar">
+      <div class="input">
+        <form>
+          <input type="text" name="pokemon">
+          <input type="button" value="GUESS" onclick="guessPokemon(event)">
+        </form>
+      </div>
+      <button class="pokedex" onclick="openPokedex">MY POKEDEX</button>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>>

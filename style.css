@@ -1,0 +1,61 @@
+* {
+  font-family: 'arial', sans-serif;
+  box-sizing: border-box;
+}
+
+.title {
+  margin: 80px auto 10px auto;
+  max-width: 400px;
+  text-align: center;
+}
+
+.container {
+  margin: 10px auto 10px auto;
+  max-width: 300px;
+  text-align: center;
+}
+
+.pokeAvatar {
+  margin: auto;
+  width: 60%;
+  height: 60%;
+  background-color: rgb(168, 252, 255);
+  border-radius: 50%;
+}
+.input {
+  margin: auto;
+  max-width: 250px;
+}
+
+input[type=text] {
+  margin: 10px auto;
+  height: 38px;
+  width: 175px;
+  float: left;
+}
+
+input[type=button] {
+  margin: 10px auto;
+  height: 38px;
+  width: 75px;
+  float: right;
+  background: rgb(66, 184, 221);
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  color: rgb(250, 250, 250);
+}
+
+.pokedex {
+  height: 38px;
+  width: 250px;
+  border: none;
+  cursor: pointer;
+  background: rgb(66, 184, 221);
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  font-size: 14px;
+  color: rgb(250, 250, 250);
+}
